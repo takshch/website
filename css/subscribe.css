@@ -1,0 +1,69 @@
+.subscribe.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+/**  
+    @style_aim: heading for subscribe 
+*/
+.subscribe > .heading{
+    font-size:1.8rem;
+    text-align: center;
+    margin: 0px auto 30px;
+    line-height: 1.3em;
+}
+
+/** 
+    @style_aim: flex wrapper for a input and button
+*/
+.subscribe > .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+
+.subscribe > .main > input{
+    min-width: 220px;
+    /* flex: 1; */
+    height: 35px;
+    font-size: 1rem;
+    padding-left: 8px;
+    margin: 0px 15px 25px;
+    outline: none;
+    border:none;
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+.subscribe > .main > input::placeholder{
+    font-size: 1.1rem;
+}
+
+.subscribe > .main > button{
+    color: #fff;
+    background: #0077b6;
+    background-color: #0077b6;
+    border: none;
+    font-size: 1.2rem;
+    padding:8px 15px;
+    margin: 0px 15px 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    transition: all 50ms ease-in-out;
+}
+
+
+.subscribe > .main > button:hover{
+    background: #0081a7;
+    background-color: #0081a7;
+}
+
+.subscribe > .main > button:active{
+    box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.2);
+}
