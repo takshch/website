@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import DefaultLayout from '../layouts/index';
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
   return (
-    <DefaultLayout>
+    <>
       <Head>
         <title>Hello World</title>
       </Head>
@@ -13,6 +12,6 @@ export default function Home() {
           Hello World
         </div>
       </div>
-    </DefaultLayout>
+    </>
   )
 }

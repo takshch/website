@@ -1,7 +1,20 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import { withRouter } from 'next/router';
+import DefaultLayout from '../layouts/index';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+// returns Layout component for route
+const getLayoutByRoute = (pathName) => {
+  return DefaultLayout;
+};
+
+function MyApp({ Component, pageProps, router }) {
+  const Layout = getLayoutByRoute(router.pathName);
+
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
-export default MyApp
+export default withRouter(MyApp);
