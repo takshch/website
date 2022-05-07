@@ -5,10 +5,7 @@ function DefaultLayout({ children }) {
   return (
     <div className={styles['default-layout']}>
       <Navbar />
-
-      <div className={styles.content}>
-        {children}
-      </div>
+      {children}
     </div>
   );
 }

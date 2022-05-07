@@ -1,5 +1,7 @@
 .route_index {
   display: flex;
+  padding: 2em;
+  padding-top: 1.5em;
 }
 
 .intro {
@@ -13,4 +15,10 @@
 .heading {
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.contact {
+  margin-top: 10px;
+  display: grid;
+  gap: 15px;
 }

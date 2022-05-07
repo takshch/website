@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.scss';
 import Link from 'next/link';
+import Contact from '../components/contact';
 
 export default function Home() {
   return (
@@ -30,6 +31,19 @@ export default function Home() {
             I have worked in a startup and small company and built their web
             apps.
           </p>
+
+          <div className={styles.contact}>
+            <Contact
+              href="https://www.linkedin.com/in/takshch"
+              imageSrc="/icons/linkedin.png"
+              text="/in/takshch"
+            />
+            <Contact
+              href="https://github.com/takshch"
+              imageSrc="/icons/github.png"
+              text="/takshch"
+            />
+          </div>
         </div>
       </div>
     </>
