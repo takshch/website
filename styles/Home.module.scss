@@ -2,12 +2,15 @@
   display: flex;
 }
 
-.heading {
-  color: #6a6a6a;
-  font-weight: 400;
-  font-size: 1.5rem;
+.intro {
+  display: grid;
+
+  > p {
+    font-weight: 500;
+  }
 }
 
-.subheading {
-  color: #333333;
+.heading {
+  font-weight: bold;
+  font-size: 1.2rem;
 }

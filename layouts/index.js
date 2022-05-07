@@ -6,7 +6,7 @@ function DefaultLayout({ children }) {
     <div className={styles['default-layout']}>
       <Navbar />
 
-      <div className="content">
+      <div className={styles.content}>
         {children}
       </div>
     </div>

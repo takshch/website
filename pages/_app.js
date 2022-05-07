@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '../styles/globals.scss';
 import { withRouter } from 'next/router';
 import DefaultLayout from '../layouts/index';
 
