@@ -7,7 +7,7 @@ function Contact({ href, imageSrc, text }) {
     <Link href={href} target="_blank">
       <a className={styles.contact}>
         <div className={styles.icon}>
-          <Image src={imageSrc} alt={text} width="25" height="25" />
+          <Image src={imageSrc} alt={text} width="25" height="25" unoptimized={true} />
         </div>
         <span className={styles.text}>
           {text}
