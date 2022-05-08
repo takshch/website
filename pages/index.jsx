@@ -35,12 +35,12 @@ export default function Home() {
           <div className={styles.contact}>
             <Contact
               href="https://www.linkedin.com/in/takshch"
-              imageSrc={require('../public/icons/linkedin.png')}
+              imageSrc="icons/github.png"
               text="/in/takshch"
             />
             <Contact
               href="https://github.com/takshch"
-              imageSrc={require('../public/icons/github.png')}
+              imageSrc="icons/github.png"
               text="/takshch"
             />
           </div>
