@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hello World</title>
+        <title>Taksh Chanana | Frontend | Backend | Ember.js | React.js | Firebase</title>
       </Head>
 
       <div className={styles.route_index}>
@@ -17,7 +17,7 @@ export default function Home() {
           <p>
             I am {''}
             <Link href="https://www.linkedin.com/in/takshch/" target="_blank">
-              <a>Taksh Chanana</a>
+              <a target="_blank">Taksh Chanana</a>
             </Link>
             {''} and I love to build and scale web apps.
           </p>

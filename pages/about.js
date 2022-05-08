@@ -1,8 +1,16 @@
+import Head from "next/head";
+
 function About() {
   return (
-    <div className="">
-      About Route
-    </div>
+    <>
+      <Head>
+        <title>Taksh Chanana | Frontend | Backend | Ember.js | React.js | Firebase</title>
+      </Head>
+
+      <div className="">
+        About Route
+      </div>
+    </>
   );
 }
 
